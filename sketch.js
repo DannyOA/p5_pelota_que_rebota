@@ -1,6 +1,5 @@
-const NP = 400;
+const NP = 300;
 let pelotas = [];
-
 
 function setup() {
     createCanvas(windowWidth,windowHeight);
@@ -15,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-    background(150);
+    background(15);
 
     for(let i = 0; i < NP; i++){
         pelotas[i].actualizar();
